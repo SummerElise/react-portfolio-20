@@ -1,4 +1,4 @@
-
+//import icons
 import React from "react"
 import data from "../"
 
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
       
 
- <div className="social-icons">
+ {/* /* <div className="social-icons">
  {data.social.map((socialLink, index) => (
    <a
      key={index}
@@ -20,7 +20,7 @@ const Footer = () => {
      <img src={socialLink.img} alt="icons"></img>
    </a>
  ))}
-</div>
+</div> */ }
 <span>
 Created by{" "}
 <a href="https://github.com/SummerElise">Summer Milner</a>

@@ -13,7 +13,7 @@ const styles = {
 };
 
 // add images and proper css
-
+//possibly add a hero image
 function Header() {
   return (
     <header style={styles.headerStyle} className="header">
