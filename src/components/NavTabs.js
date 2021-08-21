@@ -1,9 +1,10 @@
-//css import
-import '.styles/style.css';
+import '../components/styles/style.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    
     <header id="header" class="d-flex flex-column justify-content-center">
+
     <nav class="nav-menu">
     <ul>
       <li>
