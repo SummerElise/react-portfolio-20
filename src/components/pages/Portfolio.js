@@ -15,7 +15,7 @@ return (
       <div class="section-title">
         <h2>Featured Work</h2>
         <p>Below are some of the projects I've been working on this past year. Hover over the images below and it will 
-          display the links to those works. The icon will take you to the project's Github repo. </p>
+          display the links to those works. The icon will take you to the projects Github repo. </p>
       </div>
 
 
