@@ -11,14 +11,21 @@ function About() {
           <div>
           <p>
             I am currently a Full Stack Web Developer student at UNC Chapel Hill's coding bootcamp. 
+         </p> <p>
             I am also working towards an Associates degree in Engineering at Wake Technical Community College here in 
-            Raleigh. I readily look forward to acquiring more knowledge on web development!
+            Raleigh.
+          </p><p>
+            I readily look forward to acquiring more knowledge on web development!
           </p>
        </div>
-          <p>A little fun fact, I originally was in school studying for the medical field, but due to the pandemic, I switched my career path towards Web development. I would
-            like to eventually get my Bachelors degree in Computer Science. I am taking the credits that I have earned in the past years and combining them 
-            to get an Associates in Engineering.
-            In my free time, I enjoy being outdoors whether it be hiking the trails or kayaking out at Jordan lake. Prior to the pandemic, I found solace
+          <p>A little fun fact, I originally was in school studying for the medical field, but due to the pandemic, I switched my career path towards Web development.</p>
+          <p>
+            I would like to eventually get my Bachelors degree in Computer Science. I am taking the credits that I have earned in the past years and combining them 
+            to get an Associates in Engineering.</p>
+          <p>
+            In my free time, I enjoy being outdoors whether it be hiking the trails or kayaking out at Jordan lake.</p>
+          <p>
+            Prior to the pandemic, I found solace
             in the gym every other evening. I have recently delved into the world of video gaming, but board games still has my heart. </p>
         </div>
         <div class="row">

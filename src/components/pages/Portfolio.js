@@ -5,6 +5,7 @@ import pourDecisions from '../../img/portfolio/pourDecisions.PNG'
 import workScheduler from '../../img/portfolio/workScheduler.gif'
 import codeQuiz from '../../img/portfolio/codeQuiz.PNG'
 import comingSoon from '../../img/portfolio/comingSoon.jpg'
+import { FaGithub } from 'react-icons/fa'
 
 function Portfolio() {
 return (
@@ -13,8 +14,8 @@ return (
 
       <div class="section-title">
         <h2>Featured Work</h2>
-        <p>Below is some of the projects I've been working on this past year. Click on the images below and it will 
-          show you some of my most recent work. The link icon will give you further detail. </p>
+        <p>Below are some of the projects I've been working on this past year. Hover over the images below and it will 
+          display the links to those works. The icon will take you to the project's Github repo. </p>
       </div>
 
 
@@ -26,6 +27,7 @@ return (
             <div class="portfolio-info">
             <h4>JetAway</h4>
               <a target='_blank' rel="noreferrer" href="https://jetaway1.herokuapp.com/">Link to JetAway.</a>
+              <a href="https://github.com/snk923/JetAway" target="_blank" rel="noreferrer" class="github"><FaGithub /></a>
             </div>
             </div>
     </div>
@@ -36,6 +38,7 @@ return (
             <div class="portfolio-info">
             <h4>Password Generator</h4>
               <a target='_blank' rel= "noreferrer" href="https://summerelise.github.io/JavaScript-HW3/">Link to Password Generator.</a>
+              <a href="https://github.com/SummerElise/JavaScript-HW3" target="_blank" rel="noreferrer" class="github"><FaGithub /></a>
             </div>
            </div>
     </div>
@@ -46,6 +49,7 @@ return (
             <div class="portfolio-info">
             <h4>Pour Decisions</h4>
               <a target='_blank' rel= "noreferrer" href="https://thompsonel11.github.io/Project_1/">Link to Pour Decisions.</a>
+              <a href="https://github.com/thompsonel11/Project_1" target="_blank" rel="noreferrer" class="github"><FaGithub /></a>
             </div>
            </div>
     </div>
@@ -56,6 +60,7 @@ return (
             <div class="portfolio-info">
             <h4>Work Scheduler</h4>
               <a target='_blank' rel= "noreferrer" href="https://summerelise.github.io/Scheduler-HW5/">Link to Work Day Scheduler.</a>
+              <a href="https://github.com/SummerElise/Scheduler-HW5" target="_blank" rel="noreferrer" class="github"><FaGithub /></a>
             </div>
            </div>
       </div>
@@ -66,6 +71,7 @@ return (
             <div class="portfolio-info">
             <h4>Coding Quiz</h4>
               <a target='_blank' rel= "noreferrer" href="https://summerelise.github.io/Code-Quiz">Link to Coding Quiz.</a>
+              <a href="https://github.com/SummerElise/Code-Quiz" target="_blank" rel="noreferrer" class="github"><FaGithub /></a>
             </div>
            </div>
        </div>
