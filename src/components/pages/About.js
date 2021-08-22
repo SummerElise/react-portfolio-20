@@ -1,10 +1,11 @@
-import '../styles/style.css';
+import '../css/style.css';
 
 function About() {
     return (
       <section class="about">
       <div class="container" />
-
+      
+      <div class="content d-flex flex-column justify-content-center">
         <div class="section-title">
           <h2>About</h2>
           <div>
@@ -22,13 +23,14 @@ function About() {
         </div>
         <div class="row">
         <div class="col-lg-4">
-        <img src="../src/img/birthday-me.jpg" class="img-fluid" alt="" />
+        <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content">
           <h3>Full Stack Web Developer.</h3>
-        
+        </div>
        </div>
        </div>
+       
        </section>
 
     );  

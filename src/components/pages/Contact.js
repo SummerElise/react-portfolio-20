@@ -1,5 +1,5 @@
-// import '../styles/style.css';
-
+import '../css/style.css';
+import { BsFillEnvelopeOpenFill, BsPhone, BsFillHouseFill} from "react-icons/bs"
 
 const Contact = () => {
     return (
@@ -15,19 +15,19 @@ const Contact = () => {
           <div class="col-lg-4">
             <div class="info">
               <div class="address">
-                <i class="icofont-google-map"></i>
+                <i class><BsFillHouseFill /></i>
                 <h4>Location:</h4>
                 <p>Morrisville, NC</p>
               </div>
 
               <div class="email">
-                <i class="icofont-envelope"></i>
+                <i class><BsFillEnvelopeOpenFill /></i>
                 <h4>Email:</h4>
                 <p>selise919@gmail.com.com</p>
               </div>
 
               <div class="phone">
-                <i class="icofont-phone"></i>
+                <i class><BsPhone /></i>
                 <h4>Call:</h4>
                 <p>+1 513 444 9622</p>
               </div>

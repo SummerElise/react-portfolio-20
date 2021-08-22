@@ -1,4 +1,5 @@
-import '../components/styles/style.css';
+import './css/style.css';
+import { BsEnvelope, BsFileEarmark, BsFillGrid1X2Fill, BsFillPersonFill } from 'react-icons/bs'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -15,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-        <i class="bx bx-user"></i>
+        <i class><BsFillPersonFill /></i>
         <span>About Me</span>
         </a>
       </li>
@@ -26,7 +27,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-        <i class="bx bx-book-content"></i>
+        <i class><BsFillGrid1X2Fill /></i>
         <span>Portfolio</span>
         </a>
       </li>
@@ -37,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-        <i class="bx bx-file-blank"></i>
+        <i class><BsFileEarmark /></i>
         <span>Resume</span>
         </a>
       </li>
@@ -48,7 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-        <i class="bx bx-envelope"></i>   
+        <i class><BsEnvelope /></i>   
         <span>Contact</span>
         </a>
       </li>

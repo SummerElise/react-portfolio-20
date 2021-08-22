@@ -1,6 +1,3 @@
-// import React, { Component } from 'react';
-// import Header
-
 import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
