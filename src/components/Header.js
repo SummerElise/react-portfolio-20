@@ -1,11 +1,13 @@
- import './css/style.css';
+import './css/style.css';
+import Typewriter from 'typewriter-effect';
 
 function Header() {
+
   return (
     <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <div class="container">
       <h1>Summer Milner</h1>
-      <p>I'm a <span class="typed" data-typed-items= "Full Stack Web Developer"></span></p>
+      <p>I'm a <Typewriter options={{strings: ['Full Stack Web Developer'], autoStart: true, loop: true, }} /></p>
       <div class="social-links">     
         <a href="https://www.facebook.com/summer.elise.7/" target="_blank" rel="noreferrer" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="https://github.com/SummerElise" target="_blank" rel="noreferrer" class="github"><i class="bx bxl-github"></i></a>
@@ -13,7 +15,9 @@ function Header() {
       </div>
     </div>
   </section>
+
   )
 };
+
 
 export default Header;
