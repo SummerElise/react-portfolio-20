@@ -1,14 +1,12 @@
 import './css/style.css';
-import { BsEnvelope, BsFileEarmark, BsFillGrid1X2Fill, BsFillPersonFill, BsJustify, } from 'react-icons/bs'
+import { BsEnvelope, BsFileEarmark, BsFillGrid1X2Fill, BsFillPersonFill } from 'react-icons/bs'
 
-
-<button type="button" class="mobile-nav-toggle d-xl-none"><i class><BsJustify /></i></button>
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
 
-    <header id="header" class="d-flex flex-column justify-content-center">
-
+    <header id="header" class="d-flex flex-column justify-content-center">  
+  
     <nav class="nav-menu">
     <ul>
       <li>
